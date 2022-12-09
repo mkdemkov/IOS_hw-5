@@ -34,7 +34,6 @@ class ViewController: UIViewController {
     
     private func setupView() {
         view.backgroundColor = .systemGray6
-        commentView.isHidden = true
         colorPaletteView.isHidden = true
         
         setupIncrementButton()
@@ -83,6 +82,12 @@ class ViewController: UIViewController {
         }
         generator.prepare()
         generator.impactOccurred()
+    }
+    
+    @objc
+    func showNotesController() {
+        let notesViewController = NotesViewController()
+        self.navigationController?.pushViewController(notesViewController, animated: true)
     }
     
     func updateUI() {
@@ -140,6 +145,7 @@ class ViewController: UIViewController {
         let colorsButton = makeMenuButton(title: "🎨")
         colorsButton.addTarget(self, action: #selector(paletteButtonPressed), for: .touchUpInside)
         let notesButton = makeMenuButton(title: "📝")
+        notesButton.addTarget(self, action: #selector(showNotesController), for: .touchUpInside)
         let newsButton = makeMenuButton(title: "📰")
         buttonsSV.addArrangedSubview(colorsButton)
         buttonsSV.addArrangedSubview(notesButton)
@@ -161,6 +167,8 @@ class ViewController: UIViewController {
         colorPaletteView.pinBottom(to: buttonsSV.topAnchor, 8)
         colorPaletteView.addTarget(self, action: #selector(changeColor), for: .touchDragInside)
     }
+    
+    
     
     @objc
     private func changeColor() {

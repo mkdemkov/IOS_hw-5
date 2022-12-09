@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B56E8112292D743000393346 /* AddNoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E8111292D743000393346 /* AddNoteCell.swift */; };
+		B56E8114292D744F00393346 /* AddNoteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E8113292D744F00393346 /* AddNoteDelegate.swift */; };
+		B56E8116292D746400393346 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E8115292D746400393346 /* NoteCell.swift */; };
+		B56E8118292D747B00393346 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E8117292D747B00393346 /* NotesViewController.swift */; };
+		B56E811A292D748C00393346 /* ShortNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E8119292D748C00393346 /* ShortNote.swift */; };
 		B5C561BE291051AF00806C59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C561BD291051AF00806C59 /* AppDelegate.swift */; };
 		B5C561C0291051AF00806C59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C561BF291051AF00806C59 /* SceneDelegate.swift */; };
 		B5C561C2291051AF00806C59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C561C1291051AF00806C59 /* ViewController.swift */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B56E8111292D743000393346 /* AddNoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteCell.swift; sourceTree = "<group>"; };
+		B56E8113292D744F00393346 /* AddNoteDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteDelegate.swift; sourceTree = "<group>"; };
+		B56E8115292D746400393346 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		B56E8117292D747B00393346 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		B56E8119292D748C00393346 /* ShortNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortNote.swift; sourceTree = "<group>"; };
 		B5C561BA291051AF00806C59 /* mkdemkov-3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mkdemkov-3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C561BD291051AF00806C59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5C561BF291051AF00806C59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +70,11 @@
 			children = (
 				B5C561BD291051AF00806C59 /* AppDelegate.swift */,
 				B5C561BF291051AF00806C59 /* SceneDelegate.swift */,
+				B56E8111292D743000393346 /* AddNoteCell.swift */,
+				B56E8113292D744F00393346 /* AddNoteDelegate.swift */,
+				B56E8115292D746400393346 /* NoteCell.swift */,
+				B56E8117292D747B00393346 /* NotesViewController.swift */,
+				B56E8119292D748C00393346 /* ShortNote.swift */,
 				B5C561C1291051AF00806C59 /* ViewController.swift */,
 				B5C561D1291059DC00806C59 /* UIView_ext.swift */,
 				B5C561C6291051B000806C59 /* Assets.xcassets */,
@@ -141,10 +156,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5C561D2291059DC00806C59 /* UIView_ext.swift in Sources */,
+				B56E8112292D743000393346 /* AddNoteCell.swift in Sources */,
+				B56E8114292D744F00393346 /* AddNoteDelegate.swift in Sources */,
 				B5C561D4291066E800806C59 /* ColorPaletteView.swift in Sources */,
+				B56E811A292D748C00393346 /* ShortNote.swift in Sources */,
 				B5C561C2291051AF00806C59 /* ViewController.swift in Sources */,
+				B56E8118292D747B00393346 /* NotesViewController.swift in Sources */,
 				B5C561BE291051AF00806C59 /* AppDelegate.swift in Sources */,
 				B5C561C0291051AF00806C59 /* SceneDelegate.swift in Sources */,
+				B56E8116292D746400393346 /* NoteCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
